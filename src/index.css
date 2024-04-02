@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* flex */
+.flex-a{
+  @apply flex items-center;
+}
+.flex-b{
+  @apply flex items-center justify-between;
+}
+.flex-c{
+  @apply flex items-center justify-center;
+}
+
+/* forms */
+.input{
+  @apply outline-none border border-gray-300 rounded-lg px-3 py-[6px];
+}
+.label{
+  @apply font-semibold text-sm text-gray-600 block capitalize;
+}
+
+.btn{
+  @apply px-4 py-2 text-white text-sm rounded-lg bg-primary;
+}

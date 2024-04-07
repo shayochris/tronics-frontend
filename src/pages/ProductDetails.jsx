@@ -23,7 +23,7 @@ export default function ProductDetails() {
       {
       !loading && 
         <div className="flex lg:flex-row flex-col">
-          <div className="h-56 lg:flex-1 rounded-lg overflow-hidden">
+          <div className="flex-1 lg:h-96 h-56 rounded-lg overflow-hidden">
             <img src={product.image} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="flex-1 p-3">

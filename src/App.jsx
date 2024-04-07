@@ -15,6 +15,7 @@ import HomeLayout from "./pages/HomeLayout"
 import Home from "./pages/Home"
 import Signin from "./pages/Signin"
 import Signup from "./pages/Signup"
+import ProductDetails from "./pages/ProductDetails"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,10 @@ const router = createBrowserRouter(
         <Route 
           path='home' 
           element={<Home/>} 
+        /> 
+        <Route 
+          path='product_details/:id' 
+          element={<ProductDetails/>} 
         /> 
       </Route>
 

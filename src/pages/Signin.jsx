@@ -37,6 +37,9 @@ export default function Signin() {
       if(response.statusText === 'Unauthorized'){
         alert.current.showError(response.data.detail)
       }
+      if(response.status === 400){
+        alert.current.showError('invalid credentials')
+      }
     })
   }
 

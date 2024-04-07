@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily :{
-        roboto : ['Roboto', 'sans-serif']
+        Poppins : ['poppins', 'sans-serif']
       },
       colors :{
         primary: '#5D3FD3'
